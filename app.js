@@ -2,7 +2,7 @@
 let listNumbers = [];
 
 // Define o limite superior para o número aleatório a ser gerado
-let limitNumber = 1000;
+let limitNumber = 500;
 
 // Habilita o botão de verificar número chamando a função ableDisable()
 ableDisable();
@@ -26,7 +26,7 @@ function textField(tag, text) {
 // Função para definir a mensagem inicial do jogo
 function initialMessage() {
     textField('h1', 'Secret number game'); // Define o título do jogo
-    textField('p', 'Choose a number from 1 to 1000'); // Define a instrução do jogo
+    textField('p', 'Choose a number from 1 to 500'); // Define a instrução do jogo
 }
 
 // Chama a função para exibir a mensagem inicial
