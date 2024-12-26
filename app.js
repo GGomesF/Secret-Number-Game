@@ -20,7 +20,6 @@ let wordTrye = "";
 function textField(tag, text) {
     let field = document.querySelector(tag); // Seleciona o elemento HTML pelo seletor fornecido
     field.innerHTML = text; // Atualiza o conteúdo do elemento com o texto fornecido
-    responsiveVoice.speak(text, 'US English Female', {rate:1.2});
 }
 
 // Função para definir a mensagem inicial do jogo
